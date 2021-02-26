@@ -11,7 +11,7 @@ import threading
 import random
 
 
-user = User("")  # токен юзера от VK Admin с полными провами (vkhost.github.io)
+user = User("")  # токен юзера от VK Admin с полными правами (vkhost.github.io)
 owner_id = user.user_id
 
 photo_uploader = PhotoUploader(user.api, generate_attachment_strings=True)
